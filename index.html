@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTG</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<script src="js/main.js"></script>
+<script src="js/accordion.js"></script>
+
+
+<body class>
+    <section class="hero-section">
+        <header class="site-header">
+            <div class="logo"><a href="#">GTG</a></div>
+            <nav class="nav" id="navMenu">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Fragrances</a>
+                <a href="#">About Us</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                </svg>
+                <button class="shop-now">Shop Now</button>
+            </div>
+        </header>
+
+        <div class="badge" style="margin-left: 2%;">
+            <img src="assets/icons/Medal.png" alt="Award Medal">
+            <span>Awarded the best perfume in the world</span>
+        </div>
+
+        <div class="text-home" style="margin-left: 2%;">
+            <text style="font-size: 500%;">Live your best life</text>
+        </div>
+        <div class="text-h" style="margin-left: 2%;">
+            <text style="font-size: 450%; font-weight: 400;">10x</text>
+            <text style="font-size: 450%; font-weight: 400; margin-left: 4%;">9</text>
+            <text style="font-size: 450%; font-weight: 400; margin-left: 4%;">20K+</text>
+        </div>
+        <div style="margin-left: 3%;">
+            <text style="font-size: 100%; font-weight: 400; margin-top: 1%; color: #60af85;">power</text>
+            <text
+                style="font-size: 100%; font-weight: 400; margin-top: 1%; margin-left: 12%; color: #60af85;">Ingredients</text>
+            <text style="font-size: 100%; font-weight: 400; margin-top: 1%; margin-left: 6%; color: #60af85;">Happy
+                Customers</text>
+        </div>
+        <div style="margin-left: 2%; margin-top: 4%;">
+            <button class="shop-now">Shop Now</button>
+        </div>
+    </section>
+
+    <section class="product-section">
+        <div class="product-gallery">
+
+            <div>
+
+                <!-- LEFT ARROW -->
+                <button class="nav-arrow left" aria-label="Previous image" style="margin-top: 75%; margin-left: 6%;">
+                    &#8592;
+                </button>
+
+                <!-- IMAGE -->
+                <img id="mainProductImage" src="assets/Rectangle 6723.png" alt="Perfume" />
+
+                <!-- RIGHT ARROW -->
+                <button class="nav-arrow right" aria-label="Next image" style="margin-top: 75%; margin-right: 53%;">
+                    &#8594;
+                </button>
+
+                <!-- DOTS -->
+                <div class="nav-dots" style="margin-top: 100%; margin-right: 100%;">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+
+            </div>
+
+            <div class="thumb-row" style="margin-top: 2%;">
+                <img src="assets/pexels-pixabay-264870 1.png">
+                <img src="assets/pexels-pixabay-264950 1.png" style="margin-left: 3.5%;">
+                <img src="assets/pexels-rethaferguson-3059609 2.png" style="margin-left: 3.5%;">
+                <img src="assets/pexels-valeriya-1961782 1.png" style="margin-left: 3.5%;">
+            </div>
+
+            <div class="thumb-row" style="margin-top: 2%;">
+                <img src="assets/pexels-pixabay-264870 1.png">
+                <img src="assets/pexels-pixabay-264950 1.png" style="margin-left: 3.5%;">
+                <img src="assets/pexels-rethaferguson-3059609 2.png" style="margin-left: 3.5%;">
+                <img src="assets/pexels-valeriya-1961782 1.png" style="margin-left: 3.5%;">
+            </div>
+        </div>
+
+
+        <div class="product-info">
+
+            <h2>GTG Perfumes</h2>
+
+            <div class="rating">
+                ★★★★☆ <span>4.7 (999+ reviews)</span>
+            </div>
+
+            <p class="description">
+                Experience the timeless allure backed by modern artistry, captured in every bottle of our fragrance.
+            </p>
+
+            <div class="subscription-card">
+
+                <div class="popular">Most Popular</div>
+
+                <div class="price-row">
+                    <label>
+                        <input type="radio" checked>
+                        Single Subscription
+                    </label>
+                    <div class="price">
+                        $99.99 <span class="old">$146</span>
+                    </div>
+                </div>
+
+                <h4>Choose a Fragrance</h4>
+                <div class="fragrance-options">
+
+                    <!-- ORIGINAL -->
+                    <label class="fragrance-card active">
+                        <span class="best-seller">BEST-SELLER</span>
+
+                        <div class="radio-row">
+                            <input type="radio" name="fragrance" checked>
+                            <span>Original</span>
+                        </div>
+
+                        <img src="assets/Image_fx (14)-Photoroom 1.png" alt="Original">
+                    </label>
+
+                    <!-- LILY -->
+                    <label class="fragrance-card">
+                        <div class="radio-row">
+                            <input type="radio" name="fragrance">
+                            <span>Lily</span>
+                        </div>
+
+                        <img src="assets/Image_fx (14)-Photoroom 1 (1).png" alt="Lily">
+                    </label>
+
+                    <!-- ROSE -->
+                    <label class="fragrance-card">
+                        <div class="radio-row">
+                            <input type="radio" name="fragrance">
+                            <span>Rose</span>
+                        </div>
+
+                        <img src="assets/Image_fx (14)-Photoroom 1 (2).png" alt="Rose">
+                    </label>
+
+                </div>
+
+                <div style="margin-top: 4%;">
+                    <text>What's Included:</text>
+
+                    <div style="display: flex;">
+                        <div class="timing">
+                            <text style="margin-left: -30%; margin-top: 5%;">Every 30 Days</text>
+                            <label>
+                                <img src="assets/Image_fx (14)-Photoroom 1.png" alt="Original" style="margin-top: 40%;">
+                            </label>
+                        </div>
+
+                        <div class="onetiming" style="margin-left: 3%;">
+                            <text style="margin-left: -55%; margin-top: 3%;">One Time(Free)</text>
+
+                            <label>
+                                <img src="assets/Image_fx (14)-Photoroom 1.png" alt="Original"
+                                    style="margin-top: 14%; margin-left: -30%;">
+                                <img src="assets/Image_fx (14)-Photoroom 1 (1).png" alt="Lily"
+                                    style="margin-top: 14%; margin-left: 15%;">
+                                <img src="assets/Image_fx (14)-Photoroom 1 (2).png" alt="Rose"
+                                    style="margin-top: 14%; margin-left: 15%;">
+                            </label>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div style="margin-top: 4%; margin-left: 1%;">
+                    <img src="assets/icons/SealCheck.png" alt="seal">
+                    <text>1 Bottle Shipped Monthly</text></br></br>
+                    <img src="assets/icons/SealCheck.png" alt="seal">
+                    <text>Free Sampler for Original, Lily and Rose Fragrances</text></br></br>
+                    <img src="assets/icons/SealCheck.png" alt="seal">
+                    <text>50% OFF shipping</text></br></br>
+                    <img src="assets/icons/SealCheck.png" alt="seal">
+                    <text>Pause or Cancel Anytime After 3 Months Minimum</text></br></br>
+                    <img src="assets/icons/SealCheck.png" alt="seal">
+                    <text>28 Days Money Back Guarantee*</text></br></br>
+                </div>
+
+            </div>
+
+            <div class="subscription-card" style="margin-top: 2%;">
+                <div class="price-row">
+                    <label>
+                        <input type="radio" unchecked>
+                        Double Subscription
+                    </label>
+                    <div class="price">
+                        $169.99 <span class="old">$146</span>
+                    </div>
+                </div>
+            </div>
+            <button class="add-to-cart" style="margin-top: 2%;">Add to Cart</button>
+        </div>
+    </section>
+
+    <section>
+        <div style="display: flex;">
+            <div>
+                <h1 style="margin-left: 30%;">Our Collection</h1>
+                <button class="accordion">Section 1</button>
+                <div class="panel">
+                    <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">Section 2</button>
+                <div class="panel">
+                    <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">Section 3</button>
+                <div class="panel">
+                    <p>Lorem ipsum...</p>
+                </div>
+            </div>
+
+            <div style="margin-left: 36.5%;">
+                <img src="assets/Frame 1000003856.png" alt="big">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="banner">
+            <span style="margin-left: 16%;">84%</span>
+            <span style="margin-left: 12%;">78%</span>
+            <span style="margin-left: 12%;">89%</span>
+            <span style="margin-left: 12%;">90%</span>
+        </div>
+    </section>
+
+    <section class="comparison-section">
+        <div class="comparison-header">
+            <span class="dash">---</span>
+            <h2>Why GTG is the #1 Choice</h2>
+        </div>
+
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Qualities</th>
+
+                    <th class="highlight">
+                        <img src="assets/pexels-artempodrez-6801177 1.png" alt="GTG">
+                        <span>GTG</span>
+                    </th>
+
+                    <th>
+                        <img src="assets/pexels-pixabay-264870 1.png" alt="Arose">
+                        <span>Arose</span>
+                    </th>
+
+                    <th>
+                        <img src="assets/pexels-rethaferguson-3059609 2.png" alt="Bella">
+                        <span>Bella</span>
+                    </th>
+
+                    <th>
+                        <img src="assets/pexels-valeriya-1961782 1.png" alt="Daisies">
+                        <span>Daisies</span>
+                    </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Potency Concentration</td>
+                    <td class="highlight">10x</td>
+                    <td>1x</td>
+                    <td>1x</td>
+                    <td>10x</td>
+                </tr>
+
+                <tr>
+                    <td>Longevity</td>
+                    <td class="highlight">
+                        <img src="assets/Frame 1000004036.svg" alt="Yes">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004036.svg" alt="Yes">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Sillage</td>
+                    <td class="highlight">
+                        <img src="assets/Frame 1000004036.svg" alt="Yes">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Bottle Design Score</td>
+                    <td class="highlight">9</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>2</td>
+                </tr>
+
+                <tr>
+                    <td>Blend and Harmony</td>
+                    <td class="highlight">
+                        <img src="assets/Frame 1000004036.svg" alt="Yes">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Skin Compatibility</td>
+                    <td class="highlight">
+                        <img src="assets/Frame 1000004036.svg" alt="Yes">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Scent Profile</td>
+                    <td class="highlight">
+                        <img src="assets/Frame 1000004036.svg" alt="Yes">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004036.svg" alt="Yes">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Price vs. Quality</td>
+                    <td class="highlight">
+                        <img src="assets/Frame 1000004036.svg" alt="Yes">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004036.svg" alt="Yes">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004043.png" alt="No">
+                    </td>
+                    <td>
+                        <img src="assets/Frame 1000004036.svg" alt="Yes">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="comparison-cta">
+            <button class="primary-btn">Try It Risk-Free</button>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-container">
+
+            <!-- LEFT: Logo -->
+            <div class="footer-brand">
+                <h2>GTG</h2>
+            </div>
+
+            <!-- LINKS -->
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">Fragrances</a>
+            </div>
+
+            <div class="footer-links">
+                <a href="#">About Us</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <!-- SOCIAL -->
+            <div class="footer-social">
+                <a href="#">
+                    <img src="assets/icons/facebook.svg" alt="Facebook">
+                    Facebook
+                </a>
+                <a href="#">
+                    <img src="assets/icons/instagram.svg" alt="Instagram">
+                    Instagram
+                </a>
+                <a href="#">
+                    <img src="assets/icons/x.svg" alt="X">
+                    X
+                </a>
+            </div>
+
+            <!-- NEWSLETTER -->
+            <div class="footer-newsletter">
+                <p class="newsletter-title">
+                    Join our newsletter to stay up to date on features and releases.
+                </p>
+
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+
+                <p class="newsletter-note">
+                    By subscribing you agree to our
+                    <a href="#">Privacy Policy</a>
+                    and provide consent to receive updates from our company.
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
